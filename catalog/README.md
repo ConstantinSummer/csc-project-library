@@ -6,7 +6,7 @@ All areas below are **Planned**. These rows reserve catalogue areas; they do not
 
 ## Catalogue conventions
 
-Each future application entry records its name, learning focus, primary level (Foundation / Intermediate / Advanced), status, repository link and stable release link. Levels are defined in the [library overview](../README.md#learning-levels).
+Each future application entry records its name, learning focus, primary level (Foundation / Intermediate / Advanced), status, repository link and stable release link. Levels are defined in the [English library overview](../README.en.md#learning-levels).
 
 - **Planned**: proposed work without a verified published teaching baseline.
 - **Available**: a published release meets the [CSC project standard](../docs/PROJECT_STANDARD.md).
@@ -33,30 +33,6 @@ Group each application under its primary area and mention secondary technologies
 | To be defined | To be defined | — | Planned | — | — |
 
 ## Dart
-
-| Project | Learning focus | Level | Status | Repository | Release |
-| --- | --- | --- | --- | --- | --- |
-| To be defined | To be defined | — | Planned | — | — |
-
-## Flutter
-
-| Project | Learning focus | Level | Status | Repository | Release |
-| --- | --- | --- | --- | --- | --- |
-| To be defined | To be defined | — | Planned | — | — |
-
-## Web
-
-| Project | Learning focus | Level | Status | Repository | Release |
-| --- | --- | --- | --- | --- | --- |
-| To be defined | To be defined | — | Planned | — | — |
-
-## Databases
-
-| Project | Learning focus | Level | Status | Repository | Release |
-| --- | --- | --- | --- | --- | --- |
-| To be defined | To be defined | — | Planned | — | — |
-
-## AI
 
 | Project | Learning focus | Level | Status | Repository | Release |
 | --- | --- | --- | --- | --- | --- |
