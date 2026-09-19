@@ -53,8 +53,20 @@ See [naming and versioning](docs/NAMING_AND_VERSIONING.md) for technology identi
 
 Before adding an application to the catalogue as Available, verify that its documentation follows the standard and that its linked release can be set up and run using the documented instructions.
 
+## Licensing
+
+CSC educational repositories use the custom [CSC Educational Use License](LICENSE). They are source-available educational material, not OSI-approved open-source software. The license supports personal learning, educational experiments and attributed learner portfolio work; commercial resale, paid redistribution, rebranding and reuse in third-party educational products require prior written permission from CSC.
+
+## Project presentation standard
+
+Each project should work both as a teaching application and as a credible public technical portfolio. Repositories include accurate setup and execution examples, appropriate GitHub topics, tagged stable releases and release notes; where useful, they also include real application screenshots, a Mermaid architecture diagram and a link to the related CSC lesson or subject area. Screenshots presented as application output must come from a real execution, never a mock presented as evidence.
+
 ## Maintainer
 
 **Konstantinos Zitis** — Computer Science Center (CSC)
 
 Education website: [https://csc.gr](https://csc.gr)
+
+## About CSC
+
+Computer Science Center provides structured education in programming, software development, AI and related computing subjects. CSC publishes technically credible educational projects that learners can run, study, discuss and extend. Learn more at [https://csc.gr](https://csc.gr).
