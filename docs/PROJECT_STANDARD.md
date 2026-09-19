@@ -2,7 +2,18 @@
 
 Every Computer Science Center (CSC) educational project must be a complete, runnable application that supports source-code study, lesson discussion and extension work. A focused scope is welcome; disconnected exercises do not constitute a library project.
 
-Use the [README template](../templates/PROJECT_README_TEMPLATE.md) and the [naming and versioning conventions](NAMING_AND_VERSIONING.md). Documentation must be in English and identify CSC, [https://csc.gr](https://csc.gr), and maintainer **Konstantinos Zitis**.
+Use the [README template](../templates/PROJECT_README_TEMPLATE.md) and the [naming and versioning conventions](NAMING_AND_VERSIONING.md). Every project must provide complete Greek and English README documentation and identify CSC, [https://csc.gr](https://csc.gr), and maintainer **Konstantinos Zitis** in both versions.
+
+## Bilingual documentation and technical language
+
+Every CSC educational project repository must contain two complete, equivalent entry-point documents:
+
+- `README.md` is the primary Greek version for CSC learners.
+- `README.en.md` is the complete English version for international readers.
+
+Both files must contain a prominent language switch at the top linking directly to the other version. They must document the same released application, features, learning objectives, prerequisites, setup, execution workflow, architecture, review questions, extension challenges, versioning, attribution, licensing and CSC information. When either version changes, review and update the other in the same change so that neither becomes incomplete or stale.
+
+Translate explanatory prose for its target audience, but keep source-code identifiers, filenames, paths, package names, commands, configuration keys, APIs and established technical conventions in English. Architecture diagrams may use English technical terms in both versions when this improves precision and consistency with the code. Both READMEs must retain the required branding and attribution for **Konstantinos Zitis**, **Computer Science Center (CSC)** and [https://csc.gr](https://csc.gr).
 
 ## Ownership, licensing and attribution
 
@@ -10,7 +21,7 @@ Every CSC educational repository must contain a root `LICENSE` file titled **CSC
 
 The license must permit viewing, downloading, executing and modifying the source for personal learning and educational study, including personal derivative work for study and portfolio use. It must require retained attribution to **Konstantinos Zitis**, **Computer Science Center (CSC)** and [https://csc.gr](https://csc.gr), reserve copyright to Konstantinos Zitis / CSC, prohibit commercial resale, paid redistribution, rebranding, republication as another training product or course, and incorporation into a commercial educational product without prior written permission, include a no-warranty statement, and direct commercial or institutional licensing enquiries to [https://csc.gr](https://csc.gr).
 
-Every project README must contain dedicated `Author`, `License` and `About CSC` sections. The restrained author attribution must identify:
+Both project READMEs must contain dedicated `Author`, `License` and `About CSC` sections, translated appropriately for their target language. The restrained author attribution must identify:
 
 - **Konstantinos Zitis**
 - **Computer Science Educator / Software Developer**
@@ -35,11 +46,11 @@ Never create fake or mock screenshots and present them as real application outpu
 
 ## Discoverability and repository metadata
 
-Repository titles, descriptions and README introductions must make sense to learners and developers who have not previously visited CSC. A visitor should quickly understand what the application does, what it teaches, who created it, that it belongs to CSC, and where to find more lessons. Public application repositories should use accurate GitHub topics such as `education`, `computer-science`, `programming`, `learning`, `csc`, the primary technology, and a small number of project-specific concepts. Technical quality and educational value always take precedence over marketing; do not add irrelevant or promotional topics merely to increase reach.
+Repository titles, descriptions and README introductions must make sense to learners and developers who have not previously visited CSC. A visitor should quickly understand what the application does, what it teaches, who created it, that it belongs to CSC, and where to find more lessons. GitHub repository descriptions must be concise and optimized for international discoverability, using clear internationally understood technical language; add Greek context only when the platform limit permits it without reducing clarity. Public application repositories should use accurate, English-language GitHub topics such as `education`, `computer-science`, `programming`, `learning`, `csc`, the primary technology, and a small number of project-specific concepts. Technical quality and educational value always take precedence over marketing; do not add irrelevant or promotional topics merely to increase reach.
 
 ## Mandatory documentation
 
-Every project must have a root `README.md` containing the following sections. Longer explanations may live in linked documents, but the README must remain the entry point and contain all essential setup and execution steps.
+Every project must have a root `README.md` in Greek and a root `README.en.md` in English, each containing the following sections and a prominent link to the other language at the top. Longer explanations may live in linked documents, but both READMEs must remain complete entry points and contain all essential setup and execution steps.
 
 ### 1. Project overview
 
@@ -96,6 +107,8 @@ Before a project is listed as **Available**:
 - Verify setup and execution from a clean checkout of the intended release on the documented environment.
 - Check the supplied example workflow and automated tests or documented manual checks.
 - Review all mandatory sections for accuracy and replace template placeholders.
+- Verify that `README.md` and `README.en.md` are complete, mutually linked at the top and aligned with the same released application.
+- Verify that technical identifiers and conventions remain in English and that repository descriptions and topics support international discoverability.
 - Verify that the custom `LICENSE`, attribution block, licensing summary and `About CSC` section are present and consistent.
 - Verify that the repository description and topics are accurate and useful for discoverability.
 - Verify that screenshots presented as application output came from a real execution and that presentation materials accurately describe the release.
