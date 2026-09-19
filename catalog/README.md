@@ -37,3 +37,27 @@ Group each application under its primary area and mention secondary technologies
 | Project | Learning focus | Level | Status | Repository | Release |
 | --- | --- | --- | --- | --- | --- |
 | To be defined | To be defined | — | Planned | — | — |
+
+## Flutter
+
+| Project | Learning focus | Level | Status | Repository | Release |
+| --- | --- | --- | --- | --- | --- |
+| To be defined | To be defined | — | Planned | — | — |
+
+## Web
+
+| Project | Learning focus | Level | Status | Repository | Release |
+| --- | --- | --- | --- | --- | --- |
+| To be defined | To be defined | — | Planned | — | — |
+
+## Databases
+
+| Project | Learning focus | Level | Status | Repository | Release |
+| --- | --- | --- | --- | --- | --- |
+| To be defined | To be defined | — | Planned | — | — |
+
+## AI
+
+| Project | Learning focus | Level | Status | Repository | Release |
+| --- | --- | --- | --- | --- | --- |
+| To be defined | To be defined | — | Planned | — | — |
