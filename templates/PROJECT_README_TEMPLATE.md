@@ -140,3 +140,19 @@ This project follows [CSC naming and versioning conventions](https://github.com/
 - Compatibility and migration: <Setup, environment, data or lesson changes; state None for the initial baseline if applicable>
 
 Use the documented release for lessons so that code, review questions and instructions match.
+
+
+## About CSC
+
+Computer Science Center provides structured education in programming, software development, AI and related computing subjects. CSC educational projects are designed to be run, studied, discussed and extended by learners. Learn more at [https://csc.gr](https://csc.gr).
+
+## Author
+
+**Konstantinos Zitis**<br>
+Computer Science Educator & Software Developer<br>
+Computer Science Center (CSC)<br>
+[https://csc.gr](https://csc.gr)
+
+## License
+
+This project is source-available educational material published under the **CSC Educational Use License**, not an OSI-approved open-source license. See the repository's root `LICENSE` file. The license permits personal learning, educational experiments and attributed learner portfolio work; commercial resale, paid redistribution, rebranding and use in third-party educational products require prior written permission from CSC.
