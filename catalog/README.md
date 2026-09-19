@@ -18,7 +18,7 @@ Group each application under its primary area and mention secondary technologies
 
 | Project | Learning focus | Level | Status | Repository | Release |
 | --- | --- | --- | --- | --- | --- |
-| To be defined | To be defined | — | Planned | — | — |
+| Greek Fire Response Coordination System | Object-oriented design with arrays (classes, encapsulation, inheritance, polymorphism, enums, exception handling), state machines, searching and statistics | Intermediate | Available | [csc-java-fire-response-system](https://github.com/ConstantinSummer/csc-java-fire-response-system) | [v1.0.0](https://github.com/ConstantinSummer/csc-java-fire-response-system/releases/tag/v1.0.0) |
 
 ## Python
 
