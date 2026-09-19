@@ -1,9 +1,13 @@
-<!-- Copy this file to the root README.md of a future CSC application repository.
-Replace every <...> placeholder, choose one learning level and remove authoring comments.
+<!-- Copy this file to the root README.en.md of a future CSC application repository.
+Create README.md as a complete Greek translation with the same structure and released-project information.
+Keep both files synchronized, retain the language switch at the top of each, replace every <...>
+placeholder, choose one learning level and remove authoring comments.
 Follow https://github.com/ConstantinSummer/csc-project-library/blob/main/docs/PROJECT_STANDARD.md.
 Do not present extension ideas as implemented features. -->
 
 # CSC — <Project Title>
+
+[Ελληνικά](README.md) | **English**
 
 A complete educational application from **Computer Science Center (CSC)**.
 
