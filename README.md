@@ -1,20 +1,22 @@
-# CSC Educational Project Library
+# Βιβλιοθήκη Εκπαιδευτικών Έργων CSC
 
-The official educational project library of **Computer Science Center (CSC)**, connected to [https://csc.gr](https://csc.gr).
+**Ελληνικά** | [English](README.en.md)
 
-This repository is the central catalogue and standards repository for complete educational software projects used with advanced learners. Projects are runnable applications with a coherent purpose, documented design and extension opportunities, rather than isolated exercises. Each application will live in its own repository; this repository contains the catalogue, shared standards and reusable documentation template.
+Η επίσημη βιβλιοθήκη εκπαιδευτικών έργων του **Computer Science Center (CSC)**, συνδεδεμένη με το [https://csc.gr](https://csc.gr).
 
-## How learners use the library
+Αυτό το repository αποτελεί τον κεντρικό κατάλογο και το repository προτύπων για ολοκληρωμένα εκπαιδευτικά έργα λογισμικού που χρησιμοποιούνται με προχωρημένους εκπαιδευόμενους. Τα έργα είναι εκτελέσιμες εφαρμογές με συνεκτικό σκοπό, τεκμηριωμένο σχεδιασμό και δυνατότητες επέκτασης, όχι μεμονωμένες ασκήσεις. Κάθε εφαρμογή θα βρίσκεται στο δικό της repository· αυτό το repository περιλαμβάνει τον κατάλογο, τα κοινά standards και το επαναχρησιμοποιήσιμο template τεκμηρίωσης.
 
-1. Download or clone a project at its documented release and follow the setup instructions.
-2. Run the application and explore its expected behaviour with the supplied examples.
-3. Study the source code, tracing how the application implements its features.
-4. Discuss architecture, concepts, trade-offs and guided review questions during lessons.
-5. Complete extension challenges, verify the resulting behaviour and explain the design decisions made.
+## Πώς χρησιμοποιούν οι εκπαιδευόμενοι τη βιβλιοθήκη
 
-## Planned areas
+1. Κατεβάζουν ή κάνουν clone ένα project στην τεκμηριωμένη release έκδοσή του και ακολουθούν τις οδηγίες setup.
+2. Εκτελούν την εφαρμογή και εξερευνούν την αναμενόμενη συμπεριφορά της με τα παρεχόμενα παραδείγματα.
+3. Μελετούν το source code, παρακολουθώντας πώς η εφαρμογή υλοποιεί τις λειτουργίες της.
+4. Συζητούν την αρχιτεκτονική, τις έννοιες, τα trade-offs και τις καθοδηγούμενες ερωτήσεις ανασκόπησης κατά τη διάρκεια των μαθημάτων.
+5. Ολοκληρώνουν προκλήσεις επέκτασης, επαληθεύουν τη συμπεριφορά που προκύπτει και εξηγούν τις σχεδιαστικές τους αποφάσεις.
 
-All areas are currently **Planned**; no application is published in this catalogue yet.
+## Προγραμματισμένες θεματικές περιοχές
+
+Όλες οι περιοχές είναι προς το παρόν **Planned**· δεν έχει δημοσιευτεί ακόμη καμία εφαρμογή σε αυτόν τον κατάλογο.
 
 - Java
 - Python
@@ -25,48 +27,48 @@ All areas are currently **Planned**; no application is published in this catalog
 - Databases
 - AI
 
-See the [project catalogue](catalog/README.md) for project status, learning levels and release links as projects become available.
+Δείτε τον [κατάλογο έργων](catalog/README.md) για την κατάσταση των projects, τα επίπεδα μάθησης και τα release links καθώς γίνονται διαθέσιμα.
 
-## Learning levels
+## Επίπεδα μάθησης
 
-Levels describe the demands of a project within its subject area, not a learner's overall ability. Even Foundation projects are complete applications.
+Τα επίπεδα περιγράφουν τις απαιτήσεις ενός project μέσα στη θεματική του περιοχή και όχι τη συνολική ικανότητα ενός εκπαιδευόμενου. Ακόμη και τα Foundation projects είναι ολοκληρωμένες εφαρμογές.
 
-| Level | Expected starting point | Learning emphasis |
+| Επίπεδο | Αναμενόμενο αρχικό υπόβαθρο | Εκπαιδευτική έμφαση |
 | --- | --- | --- |
-| Foundation | Basic syntax, control flow and simple functions in the relevant language | Follow a small application, understand its structure and make guided changes. |
-| Intermediate | Confidence reading and modifying small applications | Connect multiple components, apply abstractions and validate behaviour. |
-| Advanced | Experience with modular applications and the stated subject prerequisites | Evaluate architecture and trade-offs, investigate constraints and implement substantial extensions independently. |
+| Foundation | Βασική σύνταξη, control flow και απλές functions στη σχετική γλώσσα | Παρακολούθηση μιας μικρής εφαρμογής, κατανόηση της δομής της και πραγματοποίηση καθοδηγούμενων αλλαγών. |
+| Intermediate | Άνεση στην ανάγνωση και τροποποίηση μικρών εφαρμογών | Σύνδεση πολλών components, εφαρμογή abstractions και επαλήθευση συμπεριφοράς. |
+| Advanced | Εμπειρία σε modular εφαρμογές και στα δηλωμένα προαπαιτούμενα του αντικειμένου | Αξιολόγηση αρχιτεκτονικής και trade-offs, διερεύνηση περιορισμών και ανεξάρτητη υλοποίηση σημαντικών επεκτάσεων. |
 
-Each project must declare one primary level and concrete prerequisites.
+Κάθε project πρέπει να δηλώνει ένα κύριο επίπεδο και συγκεκριμένα προαπαιτούμενα.
 
-## Repository naming
+## Ονοματοδοσία repositories
 
-Application repositories use `csc-<technology>-<project-name>`, with lowercase words separated by hyphens. The technology identifies the primary area; the project name describes the application. This central repository retains the name `csc-project-library`.
+Τα application repositories χρησιμοποιούν τη μορφή `csc-<technology>-<project-name>`, με πεζές λέξεις χωρισμένες με παύλες. Το technology προσδιορίζει την κύρια περιοχή και το project name περιγράφει την εφαρμογή. Αυτό το κεντρικό repository διατηρεί το όνομα `csc-project-library`.
 
-See [naming and versioning](docs/NAMING_AND_VERSIONING.md) for technology identifiers, folder and branch names, release rules and commit conventions.
+Δείτε τις [συμβάσεις ονοματοδοσίας και versioning](docs/NAMING_AND_VERSIONING.md) για technology identifiers, ονόματα folders και branches, release rules και commit conventions.
 
-## Documentation and standards
+## Τεκμηρίωση και standards
 
-- [Project standard](docs/PROJECT_STANDARD.md): mandatory educational content and readiness criteria.
-- [Naming and versioning](docs/NAMING_AND_VERSIONING.md): consistent repository and development conventions.
-- [Project README template](templates/PROJECT_README_TEMPLATE.md): starting point for future project documentation.
+- [Project standard](docs/PROJECT_STANDARD.md): υποχρεωτικό εκπαιδευτικό περιεχόμενο και κριτήρια ετοιμότητας.
+- [Naming and versioning](docs/NAMING_AND_VERSIONING.md): συνεπείς συμβάσεις για repositories και development.
+- [Project README template](templates/PROJECT_README_TEMPLATE.md): αφετηρία για την τεκμηρίωση μελλοντικών projects.
 
-Before adding an application to the catalogue as Available, verify that its documentation follows the standard and that its linked release can be set up and run using the documented instructions.
+Πριν προστεθεί μια εφαρμογή στον κατάλογο ως Available, επαληθεύστε ότι η τεκμηρίωσή της ακολουθεί το standard και ότι το συνδεδεμένο release μπορεί να γίνει setup και να εκτελεστεί με βάση τις τεκμηριωμένες οδηγίες.
 
 ## Licensing
 
-CSC educational repositories use the custom [CSC Educational Use License](LICENSE). They are source-available educational material, not OSI-approved open-source software. The license supports personal learning, educational experiments and attributed learner portfolio work; commercial resale, paid redistribution, rebranding and reuse in third-party educational products require prior written permission from CSC.
+Τα εκπαιδευτικά repositories του CSC χρησιμοποιούν την προσαρμοσμένη [CSC Educational Use License](LICENSE). Αποτελούν source-available εκπαιδευτικό υλικό και όχι OSI-approved open-source software. Η άδεια υποστηρίζει την προσωπική μάθηση, τα εκπαιδευτικά experiments και τη χρήση σε portfolio εκπαιδευόμενου με attribution· η εμπορική μεταπώληση, η επί πληρωμή αναδιανομή, το rebranding και η επαναχρησιμοποίηση σε εκπαιδευτικά προϊόντα τρίτων απαιτούν προηγούμενη γραπτή άδεια από το CSC.
 
-## Project presentation standard
+## Standard παρουσίασης project
 
-Each project should work both as a teaching application and as a credible public technical portfolio. Repositories include accurate setup and execution examples, appropriate GitHub topics, tagged stable releases and release notes; where useful, they also include real application screenshots, a Mermaid architecture diagram and a link to the related CSC lesson or subject area. Screenshots presented as application output must come from a real execution, never a mock presented as evidence.
+Κάθε project πρέπει να λειτουργεί τόσο ως εκπαιδευτική εφαρμογή όσο και ως αξιόπιστο δημόσιο τεχνικό portfolio. Τα repositories περιλαμβάνουν ακριβή παραδείγματα setup και εκτέλεσης, κατάλληλα GitHub topics, tagged stable releases και release notes· όπου είναι χρήσιμο, περιλαμβάνουν επίσης πραγματικά screenshots της εφαρμογής, Mermaid architecture diagram και σύνδεσμο προς το σχετικό μάθημα ή τη θεματική περιοχή του CSC. Τα screenshots που παρουσιάζονται ως output εφαρμογής πρέπει να προέρχονται από πραγματική εκτέλεση και ποτέ από mock που παρουσιάζεται ως αποδεικτικό στοιχείο.
 
-## Maintainer
+## Υπεύθυνος
 
 **Konstantinos Zitis** — Computer Science Center (CSC)
 
-Education website: [https://csc.gr](https://csc.gr)
+Εκπαιδευτικός ιστότοπος: [https://csc.gr](https://csc.gr)
 
-## About CSC
+## Σχετικά με το CSC
 
-Computer Science Center provides structured education in programming, software development, AI and related computing subjects. CSC publishes technically credible educational projects that learners can run, study, discuss and extend. Learn more at [https://csc.gr](https://csc.gr).
+Το Computer Science Center προσφέρει δομημένη εκπαίδευση στον προγραμματισμό, την ανάπτυξη λογισμικού, την Τεχνητή Νοημοσύνη και συναφή αντικείμενα πληροφορικής. Το CSC δημοσιεύει τεχνικά αξιόπιστα εκπαιδευτικά projects, τα οποία οι εκπαιδευόμενοι μπορούν να εκτελέσουν, να μελετήσουν, να συζητήσουν και να επεκτείνουν. Μάθετε περισσότερα στο [https://csc.gr](https://csc.gr).
