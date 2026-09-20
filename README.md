@@ -14,18 +14,20 @@
 4. Συζητούν την αρχιτεκτονική, τις έννοιες, τα trade-offs και τις καθοδηγούμενες ερωτήσεις ανασκόπησης κατά τη διάρκεια των μαθημάτων.
 5. Ολοκληρώνουν προκλήσεις επέκτασης, επαληθεύουν τη συμπεριφορά που προκύπτει και εξηγούν τις σχεδιαστικές τους αποφάσεις.
 
-## Προγραμματισμένες θεματικές περιοχές
+## Θεματικές περιοχές
 
-Όλες οι περιοχές είναι προς το παρόν **Planned**· δεν έχει δημοσιευτεί ακόμη καμία εφαρμογή σε αυτόν τον κατάλογο.
+Ο κατάλογος περιλαμβάνει projects σε διαφορετικές καταστάσεις: `Planned`, `Available` και `Archived`. Τουλάχιστον ένα project είναι ήδη Available: η εφαρμογή Java [Greek Fire Response Coordination System](https://github.com/ConstantinSummer/csc-java-fire-response-system).
 
-- Java
-- Python
-- Data Structures & Algorithms
-- Dart
-- Flutter
-- Web
-- Databases
+Το τρέχον [roadmap projects](PROJECT_ROADMAP.md) δίνει προτεραιότητα στις παρακάτω περιοχές, με αυτή τη σειρά:
+
 - AI
+- Python
+- Java
+- JavaScript
+- Flutter
+- Web / HTML DOM
+
+Τα standards και ο κατάλογος υποστηρίζουν επίσης Data Structures & Algorithms, Dart και Databases. Οι περιοχές αυτές δεν ανήκουν στο τρέχον roadmap, το οποίο συνεπώς δεν καλύπτει όλες τις υποστηριζόμενες περιοχές.
 
 Δείτε τον [κατάλογο έργων](catalog/README.md) για την κατάσταση των projects, τα επίπεδα μάθησης και τα release links καθώς γίνονται διαθέσιμα.
 

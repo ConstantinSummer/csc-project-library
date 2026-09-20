@@ -14,18 +14,20 @@ This repository is the central catalogue and standards repository for complete e
 4. Discuss architecture, concepts, trade-offs and guided review questions during lessons.
 5. Complete extension challenges, verify the resulting behaviour and explain the design decisions made.
 
-## Planned areas
+## Subject areas
 
-All areas are currently **Planned**; no application is published in this catalogue yet.
+The catalogue includes projects at different lifecycle stages: `Planned`, `Available` and `Archived`. At least one project is already Available: the Java application [Greek Fire Response Coordination System](https://github.com/ConstantinSummer/csc-java-fire-response-system).
 
-- Java
-- Python
-- Data Structures & Algorithms
-- Dart
-- Flutter
-- Web
-- Databases
+The current [project roadmap](PROJECT_ROADMAP.md) prioritises these areas, in this order:
+
 - AI
+- Python
+- Java
+- JavaScript
+- Flutter
+- Web / HTML DOM
+
+The standards and the catalogue also support Data Structures & Algorithms, Dart and Databases. These areas are not part of the current roadmap, which therefore does not cover every supported area.
 
 See the [project catalogue](catalog/README.md) for project status, learning levels and release links as projects become available.
 
