@@ -52,6 +52,8 @@ See [naming and versioning](docs/NAMING_AND_VERSIONING.md) for technology identi
 - [Project standard](docs/PROJECT_STANDARD.md): mandatory educational content and readiness criteria.
 - [Naming and versioning](docs/NAMING_AND_VERSIONING.md): consistent repository and development conventions.
 - [Project README template](templates/PROJECT_README_TEMPLATE.md): starting point for future project documentation.
+- [Project roadmap](PROJECT_ROADMAP.md): the approved projects, their levels, status and order of work.
+- [Project scaffolder](tools/new-project.py): `python tools/new-project.py --help` creates the boilerplate of a new project repository.
 
 Before adding an application to the catalogue as Available, verify that its documentation follows the standard and that its linked release can be set up and run using the documented instructions.
 

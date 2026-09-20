@@ -15,6 +15,7 @@ Use `csc-<technology>-<project-name>` for application repositories.
 | --- | --- |
 | Java | `java` |
 | Python | `python` |
+| JavaScript | `javascript` |
 | Data Structures & Algorithms | `dsa` |
 | Dart | `dart` |
 | Flutter | `flutter` |

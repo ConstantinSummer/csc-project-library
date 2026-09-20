@@ -1,5 +1,6 @@
 <!-- Copy this file to the root README.en.md of a future CSC application repository.
-Create README.md as a complete Greek translation with the same structure and released-project information.
+Create README.md as a complete Greek translation with the same structure and released-project information;
+templates/PROJECT_README_EL_TEMPLATE.md is its Greek skeleton and must keep the same structure as this file.
 Keep both files synchronized, retain the language switch at the top of each, replace every <...>
 placeholder, choose one learning level and remove authoring comments.
 Also create RELEASE_NOTES.md (complete English release notes, canonical for GitHub) and
@@ -163,4 +164,4 @@ Computer Science Center (CSC)<br>
 
 ## License
 
-This project is source-available educational material published under the **CSC Educational Use License**, not an OSI-approved open-source license. See the repository's root `LICENSE` file. The license permits personal learning, educational experiments and attributed learner portfolio work; commercial resale, paid redistribution, rebranding and use in third-party educational products require prior written permission from CSC.
+This project is source-available educational material published under the **CSC Educational Use License**, not an OSI-approved open-source license. See the repository's root [`LICENSE`](LICENSE) file. The license permits personal learning, educational experiments and attributed learner portfolio work; commercial resale, paid redistribution, rebranding and use in third-party educational products require prior written permission from CSC.

@@ -52,6 +52,8 @@
 - [Project standard](docs/PROJECT_STANDARD.md): υποχρεωτικό εκπαιδευτικό περιεχόμενο και κριτήρια ετοιμότητας.
 - [Naming and versioning](docs/NAMING_AND_VERSIONING.md): συνεπείς συμβάσεις για repositories και development.
 - [Project README template](templates/PROJECT_README_TEMPLATE.md): αφετηρία για την τεκμηρίωση μελλοντικών projects.
+- [Project roadmap](PROJECT_ROADMAP.md): τα εγκεκριμένα projects, τα επίπεδα, η κατάσταση και η σειρά εργασίας τους.
+- [Project scaffolder](tools/new-project.py): το `python tools/new-project.py --help` δημιουργεί το boilerplate ενός νέου project repository.
 
 Πριν προστεθεί μια εφαρμογή στον κατάλογο ως Available, επαληθεύστε ότι η τεκμηρίωσή της ακολουθεί το standard και ότι το συνδεδεμένο release μπορεί να γίνει setup και να εκτελεστεί με βάση τις τεκμηριωμένες οδηγίες.
 

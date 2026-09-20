@@ -123,6 +123,18 @@ For each GitHub Release, use the English canonical content of `RELEASE_NOTES.md`
 
 Include the required author attribution, summarize the CSC Educational Use License with a link to the root `LICENSE`, and include the standard `About CSC` section.
 
+## Efficient Project Generation
+
+New CSC projects are created in a way that avoids repeating the same instructions in every request:
+
+- Start with the scaffolder, [`tools/new-project.py`](../tools/new-project.py), which creates the repository boilerplate from the existing templates. The approved projects, their levels and their order are in [`PROJECT_ROADMAP.md`](../PROJECT_ROADMAP.md).
+- The AI assistant reads these standards, the templates and the roadmap instead of receiving long repeated prompts. A short request naming the roadmap repository is sufficient.
+- The assistant produces only the project-specific architecture, code, tests and documentation, and replaces every scaffold placeholder.
+- The assistant does not restate the standards in its final answer.
+- The final report contains only the test results, the commit SHA, any blockers and the exact push commands.
+
+The scaffolder never creates screenshots, releases or tags and never pushes. The project standard, not the scaffolder, defines what a finished project must contain.
+
 ## Release and catalogue readiness
 
 Before a project is listed as **Available**:
