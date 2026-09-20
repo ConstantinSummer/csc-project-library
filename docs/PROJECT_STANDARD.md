@@ -13,6 +13,13 @@ Every CSC educational project repository must contain two complete, equivalent e
 
 Both files must contain a prominent language switch at the top linking directly to the other version. They must document the same released application, features, learning objectives, prerequisites, setup, execution workflow, architecture, review questions, extension challenges, versioning, attribution, licensing and CSC information. When either version changes, review and update the other in the same change so that neither becomes incomplete or stale.
 
+Every project must also provide bilingual release notes, kept as two complete, equivalent files in the repository root:
+
+- `RELEASE_NOTES.md` is the complete English version. It is the canonical release notes for GitHub and for the international audience.
+- `RELEASE_NOTES.el.md` is the complete equivalent Greek version.
+
+The two files must describe the same releases, changes, setup impacts, known limitations and migration steps, and must be updated together in the same change so that neither becomes incomplete or stale. The Greek `README.md` links primarily to `RELEASE_NOTES.el.md`; the English `README.en.md` links to `RELEASE_NOTES.md`.
+
 Translate explanatory prose for its target audience, but keep source-code identifiers, filenames, paths, package names, commands, configuration keys, APIs and established technical conventions in English. Architecture diagrams may use English technical terms in both versions when this improves precision and consistency with the code. Both READMEs must retain the required branding and attribution for **Konstantinos Zitis**, **Computer Science Center (CSC)** and [https://csc.gr](https://csc.gr).
 
 ## Ownership, licensing and attribution
@@ -108,7 +115,9 @@ Provide meaningful extensions to the working application, ordered by difficulty.
 
 ### 11. Versioning / releases
 
-Use Semantic Versioning with `v`-prefixed Git tags, starting at `v1.0.0` for the first complete teaching baseline. Link the documented release and its release notes. Describe changes to features, setup, prerequisites and educational material, including migration steps when necessary. Keep lessons tied to an explicit release so learners can reproduce the same baseline.
+Use Semantic Versioning with `v`-prefixed Git tags, starting at `v1.0.0` for the first complete teaching baseline. Link the documented release and its release notes: `README.md` links to `RELEASE_NOTES.el.md` and `README.en.md` links to `RELEASE_NOTES.md`. Describe changes to features, setup, prerequisites and educational material, including migration steps when necessary. Keep lessons tied to an explicit release so learners can reproduce the same baseline.
+
+For each GitHub Release, use the English canonical content of `RELEASE_NOTES.md` for that version as the main release body and end it with a short line pointing to the Greek version, for example a link to `RELEASE_NOTES.el.md` at the release tag. The tag must therefore contain both release notes files.
 
 ### 12. Author, License and About CSC
 
@@ -122,13 +131,14 @@ Before a project is listed as **Available**:
 - Check the supplied example workflow and automated tests or documented manual checks.
 - Review all mandatory sections for accuracy and replace template placeholders.
 - Verify that `README.md` and `README.en.md` are complete, mutually linked at the top and aligned with the same released application.
+- Verify that `RELEASE_NOTES.md` (English, canonical) and `RELEASE_NOTES.el.md` (Greek) are complete and equivalent, and that `README.md` links to the Greek file and `README.en.md` to the English file.
 - Verify that technical identifiers and conventions remain in English and that repository descriptions and topics support international discoverability.
 - Verify that the custom `LICENSE`, attribution block, licensing summary and `About CSC` section are present and consistent.
 - Verify that no AI-tool attribution or session metadata appears in commit messages, source, documentation, release notes, tags or tag messages (see **No AI Attribution Metadata**).
 - Verify that the repository description and topics are accurate and useful for discoverability.
 - Verify that screenshots presented as application output came from a real execution and that presentation materials accurately describe the release.
 - Verify that review questions and extension challenges refer to the released implementation.
-- Publish a tagged release with concise release notes and working links.
+- Publish a tagged release whose body uses the English `RELEASE_NOTES.md` content, includes a pointer to the Greek release notes and has working links.
 - Add the project to the appropriate catalogue area with its repository, primary learning level, focus and release.
 
 Planned entries must remain clearly labelled **Planned** and must not imply that runnable applications or releases already exist.

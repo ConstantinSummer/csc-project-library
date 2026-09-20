@@ -2,6 +2,10 @@
 Create README.md as a complete Greek translation with the same structure and released-project information.
 Keep both files synchronized, retain the language switch at the top of each, replace every <...>
 placeholder, choose one learning level and remove authoring comments.
+Also create RELEASE_NOTES.md (complete English release notes, canonical for GitHub) and
+RELEASE_NOTES.el.md (complete equivalent Greek version) in the repository root and update them
+together. README.en.md links to RELEASE_NOTES.md; README.md links to RELEASE_NOTES.el.md.
+The GitHub Release body uses the English RELEASE_NOTES.md content plus a short pointer to the Greek file.
 Follow https://github.com/ConstantinSummer/csc-project-library/blob/main/docs/PROJECT_STANDARD.md.
 Do not present extension ideas as implemented features. -->
 
@@ -140,7 +144,7 @@ The documented release is the working baseline. The following features are learn
 This project follows [CSC naming and versioning conventions](https://github.com/ConstantinSummer/csc-project-library/blob/main/docs/NAMING_AND_VERSIONING.md), using Semantic Versioning and `v`-prefixed tags.
 
 - Teaching baseline: <Explicit stable version and release link>
-- Release notes: <Link describing features, fixes and educational changes>
+- Release notes: [RELEASE_NOTES.md](RELEASE_NOTES.md) — <features, fixes, setup impacts and educational changes; in README.md link to RELEASE_NOTES.el.md instead>
 - Compatibility and migration: <Setup, environment, data or lesson changes; state None for the initial baseline if applicable>
 
 Use the documented release for lessons so that code, review questions and instructions match.
