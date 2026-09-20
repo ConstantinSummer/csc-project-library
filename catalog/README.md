@@ -60,4 +60,4 @@ Group each application under its primary area and mention secondary technologies
 
 | Project | Learning focus | Level | Status | Repository | Release |
 | --- | --- | --- | --- | --- | --- |
-| To be defined | To be defined | — | Planned | — | — |
+| Prompt Evaluation Lab | Prompt design, structured outputs, repeatable datasets, deterministic metrics, weighted scoring, provider abstraction | Intermediate | Available | [csc-ai-prompt-evaluation-lab](https://github.com/ConstantinSummer/csc-ai-prompt-evaluation-lab) | [v1.0.0](https://github.com/ConstantinSummer/csc-ai-prompt-evaluation-lab/releases/tag/v1.0.0) |
