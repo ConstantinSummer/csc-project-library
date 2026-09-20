@@ -80,4 +80,6 @@ fix: Handle empty input
 
 Use the body to explain why a non-obvious change is needed and describe compatibility impacts. Mark breaking changes with `!` after the type or scope and include a `BREAKING CHANGE:` explanation in the body. Keep each commit focused and never include credentials or unrelated generated artefacts.
 
+Commit messages, tags and tag messages must not contain AI-tool attribution or session metadata; see **No AI Attribution Metadata** in the [CSC project standard](PROJECT_STANDARD.md).
+
 For the initial library commit, use `Initialize CSC educational project library` as the explicit bootstrap-message exception.
