@@ -52,7 +52,7 @@
 ## Τεκμηρίωση και standards
 
 - [Project standard](docs/PROJECT_STANDARD.md): υποχρεωτικό εκπαιδευτικό περιεχόμενο και κριτήρια ετοιμότητας.
-- [CSC Learning Hub 2.0 — Strapi 5 migration & NAS autonomy](docs/CSC_LEARNING_HUB_STRAPI5_MIGRATION_MASTER_2026-10-30.md): κεντρική τεκμηρίωση, τρέχουσα κατάσταση, εξαρτήσεις άρθρων/social, ελεγχόμενη πρόσβαση στο NAS και handoff για νέες συνομιλίες. Συνδέεται με το [master issue #3](../../issues/3).
+- [CSC Learning Hub — δημόσια περιγραφή](docs/CSC_LEARNING_HUB_STRAPI5_MIGRATION_MASTER_2026-10-30.md): γενική κατεύθυνση του εκπαιδευτικού προϊόντος. Αναλυτικό τεχνικό ιστορικό και επιχειρησιακές καταγραφές διατηρούνται σε ξεχωριστό **ιδιωτικό** repository.
 - [Naming and versioning](docs/NAMING_AND_VERSIONING.md): συνεπείς συμβάσεις για repositories και development.
 - [Project README template](templates/PROJECT_README_TEMPLATE.md): αφετηρία για την τεκμηρίωση μελλοντικών projects.
 - [Project roadmap](PROJECT_ROADMAP.md): τα εγκεκριμένα projects, τα επίπεδα, η κατάσταση και η σειρά εργασίας τους.
