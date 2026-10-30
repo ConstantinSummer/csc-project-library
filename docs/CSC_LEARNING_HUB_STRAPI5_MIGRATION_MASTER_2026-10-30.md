@@ -79,6 +79,11 @@ A private archival LMS audit from 2026-10-10 observed anonymous exposure of vide
 - Prefer existing `csc-nas-control` bridge, add one bootstrap only if needed; avoid demanding repeated manual terminal operations. The user may be unavailable during teaching hours.
 - Records: GitHub issues and this document are the durable source of truth. Each work unit adds timestamp, known facts, links to commit/CI, exact pending input, and rollback. Clear handoff summary in every new chat.
 
+## Additional live connector checks (2026-10-30, read-only)
+- Authenticated Vercel list-deployments showed latest `frontend` **production READY** deployment `dpl_CkUKRQx7mVK4eVEYTQynV1PHJwzw` on **`strapi-layout-setup`**, commit **`59f62a2135cec36d6577e3c1198ff91e252f0e95`**, message `fix: retry transient Strapi asset failures during Vercel builds`; Inspector https://vercel.com/constantinsummer/frontend/CkUKRQx7mVK4eVEYTQynV1PHJwzw. Confirms branch/commit of inspected frontend integration.
+- Connected Opera can list tabs including Strapi admin URL, but trying to open new Strapi settings page redirected to admin login; no live Strapi runtime/configuration was extracted. NAS LAN portal and Portainer tabs are blocked from browser connector actions. This **does not** constitute NAS filesystem or SSH access. No production settings changed.
+- Three delegated dependency trackers were created: https://github.com/ConstantinSummer/csc-article-publisher/issues/44 , https://github.com/ConstantinSummer/csc-social-publisher/issues/1 , https://github.com/ConstantinSummer/csc-nas-control/issues/12 .
+
 ## Current completion checkpoint — 2026-10-30
 - [x] Official Strapi migration feasibility and latest version confirmed.
 - [x] Code read-only inventory in frontend, backend, article publisher, social publisher.
